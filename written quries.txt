@@ -1,0 +1,48 @@
+create table Anuradha  
+(lec int,
+mon varchar(30),
+tue varchar(30),
+wed varchar(30),
+thu varchar(30),
+fri varchar(30),
+sat varchar(30)
+);
+
+create table Harish like Anuradha;
+Create table Meenakshi like Anuradha;
+Create table Chanchal like Anuradha;
+
+//insert teachers tables
+insert into Anuradha values(1,null,'BCM02',null,'BCM02','BCT02',null);
+insert into Anuradha values(2,null,'BCA02','BCT02','BCA02',null,'BCM02');
+insert into Anuradha values(3,'BCA02',null,'BCT02','BCA02','BCM02','BCT02');
+insert into Anuradha values(4,'BCA02','BCT02',null,null,null,'BCT02');
+insert into Anuradha values(5,null,null,null,null,null,null);
+insert into Anuradha values(6,'BCA02',null,'BCT02',null,null,'BCA02');
+insert into Anuradha values(7,'BCT02',null,'BCA02',null,null,null);
+
+insert into Harish values(1,'BCM02','BCA04',null,null,'BCA+BCM04','BCA04');
+insert into Harish values(2,null,'BCT04',null,null,null,null);
+insert into Harish values(3,null,null,'BCM02',null,null,'BCT04');
+insert into Harish values(4,null,'BCM02',null,null,null,null);
+insert into Harish values(5,'BCA04',null,null,null,'BCT04','BCA+BCM04');
+insert into Harish values(6,null,null,null,null,null,null);
+insert into Harish values(7,'BCT04',null,'BCA04',null,null,'BCM02');
+
+insert into Meenakshi values(1,null,'BCM04',null,null,null,'BCM04');
+insert into Meenakshi values(2,null,null,null,'BCT04',null,'BCA04');
+insert into Meenakshi values(3,null,null,'BCT04','BCT04','BCM04',null);
+insert into Meenakshi values(4,null,null,null,null,null,null);
+insert into Meenakshi values(5,'BCT04','BCT04','BCM04',null,null,'BCT04');
+insert into Meenakshi values(6,null,'BCT04','BCA04',null,'BCT04',null);
+insert into Meenakshi values(7,'BCM04',null,null,null,'BCM04',null);
+insert into Meenakshi values(8,'BCM04',null,null,null,'BCM04',null);
+
+insert into Chanchal values(1,null,null,null,'BCT02','BCA02','BCM02');
+insert into Chanchal values(2,null,null,null,null,null,'BCA02');
+insert into Chanchal values(3,null,null,null,null,null,null);
+insert into Chanchal values(4,null,null,null,null,null,null);
+insert into Chanchal values(5,null,null,null,null,null,null);
+insert into Chanchal values(6,'BCT02',null,'BCM02','BCA02','BCM02','BCT02');
+insert into Chanchal values(7,'BCA02',null,'BCT02',null,null,null);
+insert into Chanchal values(8,'BCM02',null,null,null,null,null);
